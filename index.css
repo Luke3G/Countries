@@ -1,7 +1,35 @@
+*{
+    color: white;
+    background-color:rgb(143, 5, 5) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+}
 .flexbox-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-evenly;
     align-content: space-around;
+}
+.flexone{
+    height: 250px;
+    width: 250px;
+    border: double rgb(0, 0, 0) 10px;
+
+}
+.flextwo{
+    height: 250px;
+    width: 250px;
+    border: double rgb(0, 0, 0) 10px;
+    text-align: center;
+}
+.flexthree{
+    height: 250px;
+    width: 500px;
+    border: double rgb(0, 0, 0) 10px;
+}
+.flexfour{
+    
 }
