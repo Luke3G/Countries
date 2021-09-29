@@ -17,19 +17,23 @@ h1{
     height: 250px;
     width: 250px;
     border: double rgb(0, 0, 0) 10px;
-
+    justify-content: space-evenly;
 }
 .flextwo{
     height: 250px;
     width: 250px;
     border: double rgb(0, 0, 0) 10px;
     text-align: center;
+    justify-content: space-between;
 }
 .flexthree{
     height: 250px;
     width: 500px;
     border: double rgb(0, 0, 0) 10px;
+    justify-content:space-evenly;
 }
 .flexfour{
-    
+    border: double rgb(0, 0, 0) 10px;
+    justify-content:space-evenly;
+    text-align: center;
 }
